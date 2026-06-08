@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+backend/.venv/
+
+# Runtime storage
+backend/storage/
+storage/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.vite-temp/
+frontend/tsconfig.tsbuildinfo
+
+# Environment
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
